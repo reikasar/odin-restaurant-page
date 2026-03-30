@@ -2,11 +2,12 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    outline: red;
 }
 
 body {
-    background-image: url(bg.jpg);
-    width: 200px;
+    background-image: url(bg1.jpg);
+    background-repeat: repeat;
 }
 
 .header {
@@ -58,7 +59,7 @@ button:hover {
 }
 
 .hero-image {
-    height: 50%;
+    height: 75vh;
     width: 75vw;
 }
 
@@ -69,10 +70,13 @@ img {
 }
 
 .hero-text {
-    height: 50%;
+    height: 75vh;
     width: 75vw;
     background-color: grey;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
