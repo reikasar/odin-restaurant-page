@@ -1,4 +1,4 @@
 import "./style.css";
-import { pageLoad }from "./pageLoad.js";
+import "./pageLoad.js";
 
 console.log("Hello World!");

@@ -1,0 +1,26 @@
+.hero-image {
+    height: 75vh;
+    width: 75vw;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.hero-text {
+    height: 75vh;
+    width: 75vw;
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 6em;
+    margin: 10px;
+    text-align: center;
+}
